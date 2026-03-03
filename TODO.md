@@ -1,39 +1,40 @@
-# TODO (yg-spec)
+# TODO (без "attempts")
 
-Этот список — единственный источник правды по работе: без “attempts”, без параллельных вариантов.
+> Работаем строго по этому списку: фиксируем, что уже сделано, и что осталось сделать.
 
 ## ✅ Done
 
-- Найдены и определены репозитории:
-  - Спека: https://github.com/EzzzyGG/yg-spec
-  - Research: https://github.com/EzzzyGG/yg4-top-research , https://github.com/EzzzyGG/yg2-top-research
-- Собран единый файл с research-материалами в `yg-spec`:
-  - `yg-research-merged.md`
+- Собраны и сведены материалы из `yg research` репозиториев в единый файл:
+  - `docs/yg-research-merged.md`
+  - Источники: 
+    - https://github.com/EzzzyGG/yg4-top-research
+    - https://github.com/EzzzyGG/yg2-top-research
+
+- Проверено, что в `yg-spec` нет упоминаний `attempts/ATTEMPT/Attempt` (по code search).
 
 ## 🟦 To do
 
-### 1) Спека (yg spec)
-- [ ] Разбить текущий `README.md` на структуру спек (минимум):
-  - [ ] `SPEC.md` (или `spec/overview.md`): цель, термины, ограничения платформы
-  - [ ] `spec/ads.md`: rewarded/interstitial требования, частоты, UX
-  - [ ] `spec/iap.md`: SKU, цены, повторяемые/одноразовые покупки
-  - [ ] `spec/saves.md`: прогресс/облачные сейвы
-  - [ ] `spec/leaderboards.md`: лидерборды
-  - [ ] `spec/env-auth-lang.md`: окружение, авторизация, язык
-- [ ] Убрать из текста любые следы “attempts”/итераций (если где-то появятся) — работаем строго по этому TODO.
+### A) Спека / структура документации
+- [ ] Разнести `yg spec` в отдельный(е) документ(ы): что именно делаем в проекте (цель, платформа, ограничения).
+- [ ] Зафиксировать версии/стек: Unity 2022.3 LTS, WebGL, YG SDK.
 
-### 2) Research → решения
-- [ ] Заполнить `yg4-top-research/data/top_raw.md` (Top 50 + витрины Yandex RU/EN).
-- [ ] Заполнить `yg4-top-research/data/top_clusters.md` (кластеры + частоты).
-- [ ] Заполнить `yg4-top-research/data/top_shortlist_10.md` (итоговые 10 направлений).
-- [ ] Зафиксировать выбранные 10 направлений уже в `yg-spec` (отдельный раздел/файл), чтобы стало частью спеки.
+### B) Research → требования
+- [ ] Заполнить `top_raw` таблицу (минимум Top 50 по Yandex Games RU/EN + внешние списки).
+- [ ] Сделать кластеризацию по core loop / жанру / механикам.
+- [ ] Сформировать shortlist: 5 endless + 5 campaign.
 
-### 3) Контрольный список интеграции SDK
-- [ ] Составить чек-лист интеграции Yandex Games SDK для Unity WebGL:
-  - [ ] init/install
-  - [ ] ads
-  - [ ] iap
-  - [ ] saves
-  - [ ] leaderboards
-  - [ ] events/analytics (если нужно)
+### C) Требования к монетизации/прогрессии (из shortlist)
+- [ ] Для каждого из 10 направлений описать:
+  - core loop
+  - meta progression
+  - rewarded video
+  - interstitial
+  - IAP (RUB; small/medium/large + remove ads + starter pack)
+  - leaderboard (если нужен)
 
+### D) Интеграции Yandex Games SDK
+- [ ] Описать интеграции SDK как список модулей: ads, IAP, cloud saves, leaderboards, env/auth/lang.
+- [ ] Для каждого модуля: события/ошибки/таймауты/UX.
+
+### E) План реализации (по шагам)
+- [ ] Сформировать план работ по репозиторию: порядок задач, критерии готовности, чек-лист тестов.
