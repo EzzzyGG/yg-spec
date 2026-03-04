@@ -3,6 +3,7 @@
 Сюда складываем всех кандидатов без фильтра.
 
 | ID | Игра | URL | Источник | Платформа | Жанр | Core mechanic | Endless/Campaign | Мета (да/нет/?) | Rewarded | Interstitial | IAP | Leaderboard | Короткая причина «почему тут» | Статус |
+|---:|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Warrior Dice: Топовая РПГ | https://yandex.ru/games/app/warrior-dice-topovaia-rpg-489358 | Yandex Games - Recommended | Yandex Games | RPG | бросать кубики | endless | да | ? | ? | yes (Яны) | no | Roguelike RPG: броски кубиков + тактические бои + прокачка героя + боссы; есть «Отключить рекламу» → тип рекламы проверить в игре | checked |
 | 2 | Кристалл: Рогалик Защита Башни | https://yandex.ru/games/app/438890 | Yandex Games - Recommended | Yandex Games | Roguelike, Tower Defense | защищать кристалл | endless | yes (прокачка/перманентные апгрейды) | yes (ads — проверить в игре) | yes (ads — проверить в игре) | yes (Яны) | yes | есть лидерборд «Лучшие игроки»; теги «с прокачкой», «с рейтингом игроков», «принимают яны»; упоминание просмотра рекламы в отзывах — детали монетизации надо проверить в игре | checked |
 | 3 | Стабильная точка | https://yandex.ru/games/app/466382 | Yandex Games - Recommended | Yandex Games |  |  | endless |  | yes | yes | no | no |  | new |
