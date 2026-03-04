@@ -1,29 +1,11 @@
-# Clusters (endless / campaign)
+# Clusters
 
-Цель — сгруппировать кандидатов по основной механике, чтобы увидеть паттерны, которые проще всего “клонировать/адаптировать”.
+Кластеризация кандидатов по двум осям:
 
-## Endless clusters
+- **Mode**: `endless` / `campaign`
+- **Core mechanic**: основная механика (одна строка)
 
-| Cluster | Examples (games) | Count | Notes |
-|---|---|---:|---|
-| Runner / lane-switch |  |  |  |
-| Dodge (single-axis) |  |  |  |
-| Tap timing |  |  |  |
-| Idle / incremental |  |  |  |
-| Merge |  |  |  |
-| Other |  |  |  |
-
-## Campaign clusters
-
-| Cluster | Examples (games) | Count | Notes |
-|---|---|---:|---|
-| Puzzle (levels) |  |  |  |
-| Physics puzzle |  |  |  |
-| Match-3 / tile |  |  |  |
-| Story / adventure-lite |  |  |  |
-| Other |  |  |  |
-
-## Notes
-
-- В `Examples` можно вставлять названия (и/или ссылки) из `20-candidates-raw.md`.
-- `Count` — сколько кандидатов попало в кластер.
+| Cluster ID | Mode | Core mechanic | Игры (ссылки/названия) | Комментарий (почему кластер важен) |
+|---:|---|---|---|---|
+| 1 | endless |  |  |  |
+| 2 | campaign |  |  |  |
