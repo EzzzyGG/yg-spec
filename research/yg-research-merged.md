@@ -1,10 +1,12 @@
-# Deprecated
+# yg research (merged)
 
-Этот файл заменён новой структурой папки `research/`.
+Этот файл оставлен как «точка входа» и больше не является основным местом работы.
 
-Используй:
+Основной workflow и актуальные таблицы:
 
-- [`research/00-sources.md`](./00-sources.md)
-- [`research/20-candidates-raw.md`](./20-candidates-raw.md)
-- [`research/30-clusters.md`](./30-clusters.md)
-- [`research/40-shortlist-10.md`](./40-shortlist-10.md)
+- [Sources](./00-sources.md)
+- [Capture template](./10-capture-template.md)
+- [Candidates (raw)](./20-candidates-raw.md)
+- [Clusters](./30-clusters.md)
+- [Shortlist 10](./40-shortlist-10.md)
+- [Process README](./README.md)
