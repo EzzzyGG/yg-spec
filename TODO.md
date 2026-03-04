@@ -10,16 +10,31 @@
     - https://github.com/EzzzyGG/yg4-top-research
     - https://github.com/EzzzyGG/yg2-top-research
 
-- Проверено, что в `yg-spec` нет упоминаний `attempts`
+- Проверено, что в `yg-spec` нет упоминаний `attempts/ATTEMPT/Attempt` (по code search).
 
+## 📝 To do
+
+### A) Спека / структура документации
+- [x] Разнести `yg spec` в отдельные(ый) документ(ы): что именно делаем в проекте (цель, платформа, ограничения, огран. механика).
+- [x] Зафиксировать версию движка/стек: Unity 2022.3 LTS, WebGL, YG SDK.
+
+### B) Research → требования
+- [x] Заполнить `top_raw` таблицу (минимум Top 50 по Yandex Games RU/EN + внешние списки).
+- [x] Сформировать shortlist: 5 endless + 5 campaign.
+- [x] Сделать классификацию по core loop / жанру / механикам (см. `requirements/core_loop_requirements.md`).
+
+### C) Требования к монетизации/прогрессии (из shortlist)
+- [x] Для каждого из 10 направлений описать:
+  - core loop
+  - meta progression
+  - rewarded video
+  - interstitial
+  - IAP (RUB; small/medium/large + remove ads + starter pack)
+  - leaderboard (если нужен)
+
+### D) Интеграция Yandex Games SDK
 - [x] Описать интеграцию SDK как список: ads, IAP, cloud saves, leaderboards, env/auth/lang.
+- [x] Для каждого модуля: события/ошибки/коллбеки/тайминги/UX.
 
-## ⏳ Next
-
-- [ ] Добавить "SDK integration" в `SPEC.md` и дать ссылку на `spec/06-yg-sdk-integration.md`.
-- [ ] Привести `SPEC.md` к структуре папки `spec/*` (или наоборот), чтобы не было расхождения.
-- [ ] Уточнить формат сейва (версионирование, миграции, лимиты размера).
-- [ ] Определить модель лидербордов (сезоны, ежедневные/недельные, античит).
-- [ ] Уточнить частотные ограничения рекламных показов (capping) и UX.
-- [ ] Описать экономику (soft/hard currency, sinks/sources) с простыми числами.
-- [ ] Доработать delivery plan (milestones + риск-лист).
+### E) План реализации (по шагам)
+- [x] Сформировать план работ по репозиторию: поэтапно: задачам, критериям готовности, чек-лист тестов.
