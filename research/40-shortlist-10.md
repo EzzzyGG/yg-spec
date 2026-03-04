@@ -1,27 +1,37 @@
-# Shortlist-10 (5 endless + 5 campaign)
+# Shortlist 10
 
-Итоговый артефакт ресерча: 10 игр, которые реально будем делать.
+Цель: финальные **10** кандидатов — **5 endless** + **5 campaign**.
 
-## Таблица shortlist-10
+## Требуемые фичи (для проверки)
 
-| # | Game | Type (endless/campaign) | Core loop (1 line) | Meta progression | Monetization hooks (rewarded/interstitial/IAP) | Leaderboard? | Notes |
-|---:|---|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |  |
-| 4 |  |  |  |  |  |  |  |
-| 5 |  |  |  |  |  |  |  |
-| 6 |  |  |  |  |  |  |  |
-| 7 |  |  |  |  |  |  |  |
-| 8 |  |  |  |  |  |  |  |
-| 9 |  |  |  |  |  |  |  |
-| 10 |  |  |  |  |  |  |  |
+- Rewarded ads
+- Interstitial ads
+- IAP
+- Leaderboard
+- Meta progression
 
-## Мини-чеклист на каждую игру shortlist-10
+## Endless (5)
 
-- [ ] Core loop понятен и реализуем за 1–3 дня (MVP)
-- [ ] Есть куда прикрутить meta (хотя бы 3 апгрейда)
-- [ ] Rewarded placement естественный (после fail / для x2)
-- [ ] Interstitial можно поставить без убийства UX (по таймингу/сессиям)
-- [ ] IAP: small/medium/large + remove ads + starter pack (если уместно)
-- [ ] Лидерборд: понятный скор (очки/дистанция/комбо)
+| # | Игра | URL | Core mechanic | Rewarded | Interstitial | IAP | Leaderboard | Meta | Комментарий |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 |  |  |  |  |  |  |  |  |  |
+| 2 |  |  |  |  |  |  |  |  |  |
+| 3 |  |  |  |  |  |  |  |  |  |
+| 4 |  |  |  |  |  |  |  |  |  |
+| 5 |  |  |  |  |  |  |  |  |  |
+
+## Campaign (5)
+
+| # | Игра | URL | Core mechanic | Rewarded | Interstitial | IAP | Leaderboard | Meta | Комментарий |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 |  |  |  |  |  |  |  |  |  |
+| 2 |  |  |  |  |  |  |  |  |  |
+| 3 |  |  |  |  |  |  |  |  |  |
+| 4 |  |  |  |  |  |  |  |  |  |
+| 5 |  |  |  |  |  |  |  |  |  |
+
+## Итоговая матрица (10x5)
+
+| Игра | Mode | Rewarded | Interstitial | IAP | Leaderboard | Meta |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
