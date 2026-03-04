@@ -1,22 +1,10 @@
-# YG research — consolidated (inside yg-spec)
+# Deprecated
 
-Ранее ресерч жил в отдельных репозиториях; они удалены. Этот файл оставлен как консолидированная заметка/черновик.
+Этот файл заменён новой структурой папки `research/`.
 
-## Источники (ссылки)
+Используй:
 
-- RU Popular: https://yandex.ru/games/category/editors_choice
-- RU New: https://yandex.ru/games/category/new
-- EN Popular: https://yandex.com/games/category/editors_choice
-- EN New: https://yandex.com/games/category/new
-
-## Как использовалось
-
-1. Снять “top”/витрины и собрать кандидатов.
-2. Кластеризовать по механикам и типу (endless / campaign).
-3. Выбрать shortlist-10 (5 endless + 5 campaign).
-4. Сверить с требованиями по core loop / meta / monetization / SDK.
-
-## TODO (если будешь актуализировать)
-
-- Зафиксировать итоговый список shortlist-10 прямо в этом репо.
-- Добавить таблицу кандидатов (название/URL/механика/тип/причина выбора).
+- [`research/00-sources.md`](./00-sources.md)
+- [`research/20-candidates-raw.md`](./20-candidates-raw.md)
+- [`research/30-clusters.md`](./30-clusters.md)
+- [`research/40-shortlist-10.md`](./40-shortlist-10.md)
