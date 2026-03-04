@@ -5,9 +5,9 @@
 ## Навигация
 
 - План работ: [TODO.md](./TODO.md)
-- Research snapshot (merged):
-  - [docs/yg-research-merged.md](./docs/yg-research-merged.md)
-  - [yg-research-merged.md](./yg-research-merged.md)
+- Research (внутри этого репо):
+  - [research/yg-research-merged-snapshot.md](./research/yg-research-merged-snapshot.md)
+  - [research/yg-research-merged.md](./research/yg-research-merged.md)
 
 ## Spec (оглавление)
 
