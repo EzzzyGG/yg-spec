@@ -1,11 +1,19 @@
 # Tech stack
 
+## Stack (зафиксировано)
+
+- Engine: **Unity 2022.3 LTS**
+- Target: **WebGL**
+- Platform: **Yandex Games (RU/EN)**
+
 ## Unity
 
 - Версия: **Unity 2022.3 LTS**
 - Платформа сборки: **WebGL**
 
 ## Yandex Games SDK
+
+- Версия/форк: **TBD** (добавить ссылку на конкретный репозиторий/релиз)
 
 - Требования к интеграции описаны в: [06-yg-sdk-integration.md](./06-yg-sdk-integration.md)
 
